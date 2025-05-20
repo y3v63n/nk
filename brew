@@ -1,1 +1,3 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+tail -f /USER/cloud/nockchain_logs/miner_0.log
+tail -f /USER/admin/nockchain_logs/miner_0.log
