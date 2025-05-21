@@ -20,7 +20,7 @@ SOCKET_PATH="$MINER_DIR/nockchain_npc_$i.sock"
     echo "Launching miner $i"
 
     "$MINER_DIR/nockchain" --mine \
-        --mining-pubkey 2wKyknRVrBw1jvPFMib4pk5ENBjopFGyGeSXcSp6QBZz38YCtaxETNGuN8ijAmomsjUD1hpWPyu9TeC1GkcojoszCnWntu3mSxjni5r9M2QYft7Jf9QTk4W8q1nVarkB9JjB \
+        --mining-pubkey 3u71QFPLDS8WBzkk2vSCEQW72LBTdE4rxmqf1hKMfini9iUPHYb9kuakkcMDsToZUsHP7SXBkQTwFRLgWZDHoFDVRBRS9vDjVZ23qujtQ14m2DeRnL3tJj364wy5tNPSZJ9f \
         --btc-node-url https://bitcoin-mainnet.core.chainstack.com/69bfa311c13f64698a539bb0f48153eb \
         --npc-socket "$SOCKET_PATH" > "$LOG_DIR/miner_$i.log" 2>&1 &
 done
