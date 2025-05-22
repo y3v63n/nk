@@ -24,6 +24,14 @@ SOCKET_PATH="$MINER_DIR/nockchain_npc_$i.sock"
         --btc-node-url https://bitcoin-mainnet.core.chainstack.com/69bfa311c13f64698a539bb0f48153eb \
         --peer "dnsaddr=/ip4/34.35.75.234/udp/30000/quic-v1" \
         --peer "dnsaddr=/ip4/34.176.41.23/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.16.237.144/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.85.34.153/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.95.155.151/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.97.242.48/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.162.206.28/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.174.22.166/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.129.248.106/udp/30000/quic-v1" \
+        --peer "dnsaddr=/ip4/34.18.98.38/udp/30000/quic-v1" \
         --npc-socket "$SOCKET_PATH" > "$LOG_DIR/miner_$i.log" 2>&1 &
 done
 
