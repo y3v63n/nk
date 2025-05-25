@@ -1,0 +1,3 @@
+RUST_LOG=info,nockchain=info,nockchain_libp2p_io=info,libp2p=info,libp2p_quic=info
+MINIMAL_LOG_FORMAT=true
+MINING_PUBKEY=3u71QFPLDS8WBzkk2vSCEQW72LBTdE4rxmqf1hKMfini9iUPHYb9kuakkcMDsToZUsHP7SXBkQTwFRLgWZDHoFDVRBRS9vDjVZ23qujtQ14m2DeRnL3tJj364wy5tNPSZJ9f
