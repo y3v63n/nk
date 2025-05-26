@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd nockchain
+#cd nockchain
 RUST_LOG=info,nockchain::mining=debug,nockchain::kernel_pool=info \
 ./target/release/nockchain \
   --mine \
@@ -16,6 +16,6 @@ RUST_LOG=info,nockchain::mining=debug,nockchain::kernel_pool=info \
   --peer "/ip4/34.174.22.166/udp/30000/quic-v1" \
   --peer "/ip4/34.129.248.106/udp/30000/quic-v1" \
   --peer "/ip4/34.18.98.38/udp/30000/quic-v1" \
-  > /miner.log" 2>&1 &
+  > /Users/cloud/miner.log" 2>&1 &
 
 echo "Launched NockChain miners"
