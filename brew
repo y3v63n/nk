@@ -1,3 +1,10 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 tail -f /USERS/cloud/nockchain_logs/miner_0.log
 tail -f /USERS/admin/nockchain_logs/miner_0.log
+
+#!/bin/bash
+source .env
+export RUST_LOG
+export MINIMAL_LOG_FORMAT
+export MINING_PUBKEY
+MINING_THREADS=10 nockchain --mining-pubkey ${MINING_PUBKEY} --mine --max-established 32 --bind /ip4/0.0.0.0/udp/3011/quic-v1 --peer /ip4/95.216.102.60/udp/3006/quic-v1 > /root/miner.log 2>&1
