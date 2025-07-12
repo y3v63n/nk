@@ -8,3 +8,4 @@ export RUST_LOG
 export MINIMAL_LOG_FORMAT
 export MINING_PUBKEY
 MINING_THREADS=10 nockchain --mining-pubkey ${MINING_PUBKEY} --mine --max-established 32 --bind /ip4/0.0.0.0/udp/3011/quic-v1 --peer /ip4/95.216.102.60/udp/3006/quic-v1 > /root/miner.log 2>&1
+https://drive.google.com/file/d/18oA5ikoRJC7ax3cRq1lAWpiJ7N-5EsYR/view
